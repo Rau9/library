@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <!-- this class would be the form to register a user -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>BIBLIOTECA</title>
+        
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Styles css -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+        <!-- My Scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- Browser Label icon -->
+        <link rel="icon" type="image/png" href="img/logo.png">
+    </head>
+    <body>
+        <section id="global">
+
+            <!-- Headboard -->
+            <header>
+                <div id="logo">
+                    <h1>BIBLIOTECA</h1>
+                </div>
+                <nav id="menu">
+
+                </nav>
+            </header>
+                        <!-- Form for login -->
+                        <div id="formRegister">
+                            <h2>Registrarse</h2>
+                            <form id="registerForm">   
+                                <label for="userRegister">Usuario</label><br>
+                                <input type="text" name="userRegister" id="userRegister" required=true/><br>
+    
+                                <label for="passwordRegister">Contraseña</label><br>
+                                <input type="password" name="passwordRegister" id="passwordRegister" required=true/><br>
+
+                                <label for="passwordRegisterConfirm">Confirma la Contraseña</label><br>
+                                <input type="password" name="passwordRegisterConfirm" id="passwordRegisterConfirm" required=true/><br>
+                                
+                                <input type="button" id="registerButton" value="Registrarse" onclick="submitUser()"/>
+                                <a href="index.html">Ir a inicio de sesión</a>
+                            </form>
+            
+                        </div>
+
+            </div>
+            <footer>
+            &copy; Un desarrollo de Raúl López Velázquez
+            </footer>
+        </section>
+
+    </body>
+
+
+</html>

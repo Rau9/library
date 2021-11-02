@@ -1,0 +1,188 @@
+body{
+    background: url("../img/biblioteca.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+}
+
+#logo{
+    font-family: Verdana, Arial;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#menu{
+    font-family: Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu ul li:hover{
+    background: #FF8A33;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#initialContent{
+    font-family: Helvetica, Arial;
+    text-align: center;
+}
+
+footer{
+    font-family: Helvetica, Arial;
+    width: 65%;
+    margin-top: 70px;
+}
+
+#formCreation{
+    text-align: center;
+}
+
+#formLogin{
+    text-align: center;
+}
+
+#formRegister{
+    text-align: center;
+}
+
+#formModify{
+    text-align: center;
+}
+
+#formRemove{
+    text-align: center;
+}
+
+form input[type="text"]{
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form input[type="password"]{
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form textarea{
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 50%;
+    height: 90px;
+    resize: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form select{
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#content{
+    font-family: Helvetica, Arial;
+    text-align: center;
+}
+
+#createForm{
+    width: 100%;
+    margin-top: 15px;
+    font-family: Helvetica, Arial;
+}
+
+#createForm label{
+    width: 100%;
+}
+
+#loginForm{
+    width: 100%;
+    margin-top: 15px;
+    font-family: Helvetica, Arial;
+}
+
+#loginForm label{
+    width: 100%;
+}
+
+#registerForm{
+    width: 100%;
+    margin-top: 15px;
+    font-family: Helvetica, Arial;
+}
+
+#registerForm label{
+    width: 100%;
+}
+
+#modifyForm{
+    width: 100%;
+    margin-top: 15px;
+    font-family: Helvetica, Arial;
+}
+
+#modifyForm label{
+    width: 100%;
+}
+
+#removeForm{
+    width: 100%;
+    margin-top: 15px;
+    font-family: Helvetica, Arial;
+}
+
+#removeForm label{
+    width: 100%;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>BIBLIOTECA</title>
+        
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Styles css -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+        <!-- My Scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- Browser Label icon -->
+        <link rel="icon" type="image/png" href="img/logo.png">
+    </head>
+    <body>
+        <section id="global">
+
+            <!-- Headboard -->
+            <header>
+                <div id="closeSession">
+                    <a href="/">CerrarSesión</a>
+                </div>
+                <div id="logo">
+                    <h1>BIBLIOTECA</h1>
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="consult.html">CONSULTAR</a></li>
+                        <li><a href="create.html">CREAR</a></li>
+                        <li><a href="modify.html">MODIFICAR</a></li>
+                        <li><a href="remove.html">ELIMINAR</a></li>
+                    </ul>
+                </nav>
+            </header>
+                        <!-- Form for create an book's insert -->
+                    <div id="formCreation">
+                        <h2>Libro a Crear</h2>
+                        <form id="createForm">   
+                            <label for="isbnCreate">*ISBN</label><br>
+                            <input type="text" name="isbnCreate" id="isbnCreate" required=true/><br>
+
+                            <label for="titleCreate">*Título</label><br>
+                            <input type="text" name="titleCreate" id="titleCreate" required=true/><br>
+
+                            <label for="authorCreate">*Autor</label> <br>
+                            <input type="text" name="authorCreate" id="authorCreate" required=true/> <br>
+
+                            <label for="birthDate">Fecha Nacimiento</label> <br>
+                            <input type="text" name="birthDate" id="birthDate"/> <br>
+
+                            <label for="birthDead">Fecha Muerte</label> <br>
+                            <input type="text" name="birthDead" id="birthDead"/> <br>
+
+                            <label for="nick">Nick</label> <br>
+                            <input type="text" name="nick" id="nick"/> <br>
+
+                            <label for="descriptionCreate">*Descripción</label> <br>
+                            <textarea name="descriptionCreate" id="descriptionCreate" required=true></textarea><br>
+
+                            <label for="categoryCreate">*Categorías</label><br> 
+                            <select name="categoryCreate" id="categoryCreate" required=true>
+                                <option value="">Seleccione una categoría</option>
+                                <option value="fantasia">Fantasía</option>
+                                <option value="terror">Terror</option>
+                                <option value="accion">Acción</option>
+                                <option value="amor">Amor</option>
+                                <option value="drama">Drama</option>
+                                <option value="comedia">Comedia</option>
+                                <option value="aventura">Aventura</option>
+                                <option value="biografia">Biografía</option>
+                            </select><br>
+
+                            <input type="button" id="createButton" value="Guardar" onclick="create()"/><br>
+
+                            <label>Los campos con (*) son obligatorios</label> 
+
+                        </form>
+        
+                    </div>
+                    <footer>
+                         &copy; Un desarrollo de Raúl López Velázquez
+                    </footer>
+        </section>
+    </body>
+</html>

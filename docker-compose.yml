@@ -1,0 +1,15 @@
+version: '3'
+volumes:
+  pg:
+services:
+  postgres:
+    image: postgres:13.4
+    restart: always
+    volumes:
+      - pg:/var/lib/postgresql/data
+      - ${PWD}/uuid-ossp.sh:/docker-entrypoint-initdb.d/uuid-ossp.sh
+    environment:
+      - POSTGRES_PASSWORD=secure_pass_here
+      - POSTGRES_DB=catalog
+    ports:
+      - '5432:5432'

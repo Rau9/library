@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>BIBLIOTECA</title>
+        
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Styles css -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+        <!-- My Scripts -->
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- Browser Label icon -->
+        <link rel="icon" type="image/png" href="img/logo.png">
+    </head>
+    <body>
+        <section id="global">
+
+            <!-- Headboard -->
+            <header>
+                <div id="logo">
+                    <h1>BIBLIOTECA</h1>
+                </div>
+                <nav id="menu">
+
+                </nav>
+            </header>
+                        <!-- Form for login -->
+                        <div id="formLogin">
+                            <h2>Inicio de sesión</h2>
+                            <form id="loginForm">   
+                                <label for="loginUser">Usuario</label><br>
+                                <input type="text" name="loginUser" id="loginUser" required=true/><br>
+    
+                                <label for="passwordLogin">Contraseña</label><br>
+                                <input type="password" name="passwordLogin" id="passwordLogin" required=true/><br>
+                                
+                                <input type="button" id="loginButton" value="Iniciar Sesión" onclick="login()"/>
+                                <!-- here would be a button to register, to make it easier we have not added it -->
+                                <!-- <a href="login.html">Registrarse</a> -->
+                            </form>
+            
+                        </div>
+                        <footer>
+                             &copy; Un desarrollo de Raúl López Velázquez
+                        </footer>
+
+            </div>
+        </section>
+
+    </body>
+
+
+</html>
